@@ -37,6 +37,7 @@
   <project name="Joshndroid/android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="github" revision="oreo-mr1" />
   <remove-project name="android_vendor_omni" />
   <project name="Joshndroid/android_vendor_omni" path="vendor/omni" remote="github" revision="android-8.1" />
+  <project name="Joshndroid/android_packages_apps_ParanoidCamera" path="packages/apps/ParanoidCamera" remote="github" revision="oreo-mr1" />
 
 <!--AOSP Changes -->
   <remove-project name="platform/external/jemalloc" />
