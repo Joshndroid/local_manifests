@@ -39,7 +39,7 @@
   <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-14.1" />
 
 <!--ROM Changes -->
-  <remove-project name="android_vendor_cm" />
+  <remove-project name="LineageOS/android_vendor_cm" />
   <project name="Joshndroid/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-14.1" />
 
 <!--UBERTC -->
