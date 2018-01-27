@@ -38,6 +38,10 @@
   <project name="LineageOS/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-14.1" />
 
+<!--ROM Changes -->
+  <remove-project name="android_vendor_cm" />
+  <project name="Joshndroid/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-14.1" />
+
 <!--UBERTC -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
