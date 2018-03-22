@@ -34,11 +34,6 @@
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
 
-<!--LineageOS Changes -->
-  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
-  <project name="Joshndroid/android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="github" revision="oreo-mr1" />
-  <project name="Joshndroid/android_packages_apps_ParanoidCamera" path="packages/apps/ParanoidCamera" remote="github" revision="oreo-mr1" />
-
 <!--AOSP Changes -->
   <remove-project name="platform/external/jemalloc" />
   <project name="Joshndroid/android_external_jemalloc" path="external/jemalloc" remote="github" revision="oreo-mr1" />
