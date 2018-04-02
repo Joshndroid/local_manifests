@@ -34,6 +34,12 @@
   <project name="LineageOS/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="lineage-15.1"/>
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.1" />
 
+<!-- Potter -->
+  <project name="rr-devices/device_motorola_potter" path="device/motorola/potter" remote="github" revision="oreo" />
+  <project name="rr-devices/kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="github" revision="oreo" />
+  <project name="PixelExperience/packages_resources_MotoActions" path="packages/resources/MotoActions" remote="github" revision="oreo-mr1" />
+  <project name="boulzordev/android_vendor_motorola_potter" path="vendor/motorola/potter" remote="github" revision="lineage-15.1-64" />
+
 <!--RR Changes -->
   <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
   <project name="Joshndroid/android_vendor_resurrection" path="vendor/rr" remote="github" revision="oreo" />
