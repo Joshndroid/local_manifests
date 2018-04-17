@@ -39,6 +39,7 @@
   <project name="ResurrectionRemix-Devices/kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="github" revision="oreo" />
   <project name="PixelExperience/packages_resources_MotoActions" path="packages/resources/MotoActions" remote="github" revision="oreo-mr1" />
   <project name="boulzordev/android_vendor_motorola_potter" path="vendor/motorola/potter" remote="github" revision="lineage-15.1-64" />
+  <project name="jhenrique09/prebuilts_clang_host_linux-x86_7.0-DragonTC" path="prebuilts/clang/host/linux-x86/7.0-DragonTC" remote="github" revision="master" />
 
 <!--RR Changes -->
   <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
